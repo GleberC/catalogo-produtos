@@ -1,0 +1,134 @@
+/* Reset básico para garantir que o layout se comporte bem */
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #99cbd9;
+  padding: 20px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Filtros */
+.category-filters,
+.price-filter-buttons {
+  text-align: center;
+}
+
+.filter-buttons {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.price-filter-buttons {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Botões */
+button {
+  background-color: white;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Produtos */
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.product-brand {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.product-price {
+  color: #008000;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Responsivo */
+@media (min-width: 600px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .filter-buttons,
+  .price-filter-buttons {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+  }
+
+  .price-filter-buttons {
+    width: auto;
+  }
+}
