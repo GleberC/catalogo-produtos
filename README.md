@@ -1,4 +1,10 @@
-# Catálogo de Produtos - Projeto React
+# 🛍️ Catálogo de Produtos - Projeto React
+
+[![Deploy on Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel)](https://catalogo-produtos-sandy.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?logo=github)](https://github.com/GleberC/catalogo-produtos)
+
+Projeto desenvolvido com React, como prática de desenvolvimento de componentes, uso de estados e aplicação de filtros. O objetivo foi criar um catálogo de produtos funcional, onde é possível filtrar por categoria e por faixa de preço.
+
 
 Este é um projeto simples de catálogo de produtos desenvolvido com React. A proposta é praticar conceitos fundamentais como:
 
