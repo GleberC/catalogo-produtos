@@ -36,7 +36,7 @@ Este é um projeto simples de catálogo de produtos desenvolvido com React. A pr
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/GleberC/catalogo-produtos
 
 Entre na pasta do projeto:
 
@@ -52,7 +52,8 @@ O projeto estará disponível no navegador, geralmente em http://localhost:5173.
 
 🌐 Deploy
 O projeto também está publicado no Vercel:
-👉 Acessar o site aqui
+👉 Acessar o site aqui:
+https://catalogo-produtos-sandy.vercel.app/
 
 🧠 Aprendizados
 Este projeto foi desenvolvido para consolidar conhecimentos em:
